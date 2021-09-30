@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/*!
+* Start Bootstrap - Freelancer v6.0.5 (https://startbootstrap.com/theme/freelancer)
+* Copyright 2013-2020 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+ *{
+	margin: 0;padding: 0;box-sizing: border-box;
+}
+section{
+	width: 100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url("../assets/img/portfolio/computer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+nav {
+	width: 100%; height: 5vh;
+	background-color: #696969;
+	color: white;display: flex;justify-content: space-between;
+	align-items: center;
+}
+nav .Heading{
+	color: #002DF6;
+	font-family: sans-serif;
+	padding-left: 10px;
+	/*font-weight: 300;*/
+
+}
+nav .menu{
+	width: 40%; text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+nav .menu a{
+	width: 25%;
+	color: white;
+}
+	.menu a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.menu a:hover {
+background-color: #0013FF;
+}
+header h1{
+	font-size: 50px;
+	line-height: 150px;
+	}
+header{
+	text-align:center;
+	font-size: 25px;
+	line-height: 40px;
+}
+img{
+width: 170px;
+height: 170px;
+float: right;
+}
+p{
+	border: 3px solid blue;
+	padding: 30px;
+	clear: both;
+	display: table;
+	font-size: 20px; color:#08FF00;
+}
+article{
+	background-image: url("../assets/img/portfolio/table.jpg");
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+article h1{
+	text-align: center;
+	padding: 30px;
+	background-color: yellow;
+}
+table, td ,th {
+  border: 2px solid black;
+  line-height: 30px;
+  text-align: center;
+}
+th{
+	color: #FF0000;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+td{
+	color: #0013FF;
+	font-weight: bold;
+}
+
+
+/*Login Page */
+form{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../assets/img/portfolio/tech.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.header_about{
+	background-color: black;
+}
+main h1{
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 26px;
+	font-weight: bolder;
+	align-items: center;
+}
+.login{
+	text-align: right;
+	font-weight: lighter;
+	padding: 0px;
+	margin-right:150px ;
+}
+form .container{
+	text-align: right;
+	align-items: center;
+	margin-right: 150px;
+	padding-top: 20px;
+}
+input[type=text] ,input[type=password]{
+	width: 20%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+} 
+button{
+	background-color: #F30404;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	corsor: pointer;
+	width: 20%;
+}
+button:hover{
+	opacity: 0.5;
+}
+.container{
+	padding: 16px;
+}
+.cancel{
+	background-color: #042CF3;
+	width: 20%;
+}
